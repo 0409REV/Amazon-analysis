@@ -11,7 +11,7 @@ This project analyzes Amazon sales data to help a merchant understand their sale
 ## 📋 Business Requirements
 
 The merchant requested analysis on the following key areas:
-- High-value transactions (sales > $1000)
+- High-value transactions (sales > 1000)
 - Category-specific performance ("Tops" category with quantity 3)
 - Sales distribution across product categories
 - Performance metrics by category and order status
@@ -22,7 +22,6 @@ The merchant requested analysis on the following key areas:
 - **Python 3.x**
 - **Pandas** - Data manipulation and analysis
 - **NumPy** - Numerical computations
-- **Matplotlib/Seaborn** - Data visualization
 - **OpenPyXL** - Excel file handling
 - **Jupyter Notebook** - Interactive development environment
 
@@ -45,9 +44,9 @@ The merchant requested analysis on the following key areas:
 
 ```python
 # Sample insights from the analysis
-High-value sales (>$1000): X transactions
+High-value sales: X transactions
 Tops category (qty=3): Y sales
-Top performing category: Category Name ($Z revenue)
+Top performing category: Category Name (Z revenue)
 Most efficient fulfillment method: Method Name
 ```
 
